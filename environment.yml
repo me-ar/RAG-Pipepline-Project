@@ -1,0 +1,21 @@
+name: reg-query-bot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn[standard]
+      - langchain
+      - langchain-community
+      - langchain-huggingface
+      - langchain-groq
+      - langchain-text-splitters
+      - sentence-transformers
+      - chromadb
+      - pypdf
+      - python-dotenv
+      - httpx
+      - pytest
